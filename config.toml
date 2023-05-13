@@ -1,5 +1,5 @@
 baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "The ACM Special Interest Group on Software Engineering"
+title = "Software Engineering Laboratory - NAIST"
 theme = "hugo-universal-theme"
 themesDir = "themes/"
 languageCode = "en-us"
@@ -19,207 +19,71 @@ pluralizelisttitles = false
 
 # Main menu
 [[menu.main]]
-    name       = "About Freya"
-    identifier = "menu.abt"
+    name       = "Home"
+    identifier = "menu.home"
     url        = "/"
     weight     = 1
 
 [[menu.main]]
-    name       = "Executive Committee"
-    url        = "/execcontact"
-    weight     = 1
-    parent     = "menu.abt"
-
-[[menu.main]]
-    name       = "SIGSOFT Bylaws"
-    url        = "https://www.acm.org/special-interest-groups/volunteer-resources/bylaws/sigsoft-bylaws"
+    name       = "News"
+    identifier = "menu.news"
+    url        = "/news/"
     weight     = 2
-    parent     = "menu.abt"
-
 
 [[menu.main]]
-    name       = "Awards"
-    identifier = "menu.features"
+    name       = "Publications"
+    identifier = "portfolio"
+    url        = "/portfolio/"
     weight     = 3
 
 [[menu.main]]
-    name       = "SIGSOFT Awards"
-    identifier = "section.awards"
-    url        = ""
-    weight     = 1
-    parent     = "menu.features"
-    post       = 1
-
-[[menu.main]]
-    name       = "Conference Awards"
-    identifier = "section.conference"
-    url        = ""
-    weight     = 2
-    parent     = "menu.features"
-    post       = 2
-
-[[menu.main]]
-    name       = "Distinguished Service"
-    url        = "/Awards/distinguishedService"
-    weight     = 1
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "Outstanding Research"
-    url        = "/Awards/outstandingResearch"
-    weight     = 2
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "Influential Educator"
-    url        = "/Awards/influentialEducator"
-    weight     = 3
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "Impact Paper"
-    url        = "/Awards/impactPaper"
-    weight     = 4
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "Outstanding Doctoral Dissertation"
-    url        = "/Awards/dissertation"
-    weight     = 5
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "Early Career Researcher"
-    url        = "/Awards/earlyCareerResearcher"
-    weight     = 6
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "ACM SIGSOFT - SIGBED Frank Anger Memorial"
-    url        = "/Awards/anger"
-    weight     = 7
-    parent     = "section.awards"
-
-[[menu.main]]
-    name       = "ICSE Most Influential Paper"
-    url        = "https://www.sigsoft.org/awards/icseMIPAward.html"
-    weight     = 1
-    parent     = "section.conference"
-
-[[menu.main]]
-    name       = "ESEC/FSE Test of Time"
-    url        = "http://www.esec-fse.org/test_of_time_awards"
-    weight     = 2
-    parent     = "section.conference"
-
-[[menu.main]]
-    name       = "ASE Most Influential Paper"
-    url        = ""
-    weight     = 3
-    parent     = "section.conference"
-
-[[menu.main]]
-    name       = "ISSTA Impact and Retrospective"
-    url        = ""
-    weight     = 4
-    parent     = "section.conference"
-
-[[menu.main]]
-    name       = "Distinguished Paper"
-    url        = "https://www.sigsoft.org/awards/distinguishedPaperAward.html"
-    weight     = 5
-    parent     = "section.conference"
-
-[[menu.main]]
-    name       = "CARES"
-    identifier = "menu.cares"
-    weight     = 3
-
-[[menu.main]]
-    name       = "Purpose and Annual Reporting"
-    url        = "/cares/SIGSOFT_CARES"
-    weight     = 1
-    parent     = "menu.cares"
-
-[[menu.main]]
-    name       = "Resources"
-    url        = "/cares/RESOURCES"
-    weight     = 2
-    parent     = "menu.cares"
-
-[[menu.main]]
-    name       = "Bylaws"
-    url        = "/cares/ByLAWS"
-    weight     = 3
-    parent     = "menu.cares"
-
-[[menu.main]]
-    name       = "CAPS"
-    identifier = "menu.allpages"
-    url        = "/CAPS/CAPSMAIN"
+    name       = "Research"
+    identifier = "research"
+    url        = "/research/"
     weight     = 4
 
 [[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "https://sigsoft.medium.com/"
+    name       = "Life"
+    identifier = "life"
+    url        = "/life/"
     weight     = 5
 
 [[menu.main]]
-    name       = "Webinars"
-    identifier = "menu.webinars"
-    url        = "/WEBINARS/WEBINARSMAIN"
+    name       = "Access"
+    identifier = "menu.access"
+    url        = "/access/"
     weight     = 6
 
 [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact"
+    name       = "EN"
+    identifier = "languages"
+    url        = "/en/"
     weight     = 7
-
-
-# Top bar social links menu
-
-
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/news/"
     author = "DevCows"
-    defaultKeywords = ["raux", "hugo", "go"]
-    mainSections = ["blog"]
-    defaultDescription = "Site template made by Raula using Hugo"
+    defaultKeywords = ["selab", "hugo", "go"]
+    mainSections = ["news"]
+    defaultDescription = "Site template made by H.A. using Hugo Universal theme"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    default_sharing_image = "img/graduation-m2-2022-03.png"
+
+    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
+    enableGoogleMaps = true
+    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+
+    latitude = "-12.043333"
+    longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "blue"
+    style = "default"
 
-    formspree_action = "https://formspree.io/sample/of/endpoint"
-    contact_form_ajax = false
-
-    about_us = "<p>The ACM Special Interest Group on Software Engineering provides a forum for computing professionals from industry, government and academia to examine principles, practices, and new research results in software engineering.</p>"
-    copyright = "Copyright (c) 2020 - 2023, SIGSOFT; all rights reserved."
+    about_us = "<p>奈良先端科学技術大学院大学</br>先端科学技術研究科 情報科学領域</br>〒630-0192 奈良県生駒市高山町8916-5</p>"
+    copyright = "<p>© 2013-2023 © 2013-2023 Software Engineering Laboratory, Graduate School of Information Science, Nara Institute of Science and Technology, All rights reserved.</p>"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -227,23 +91,14 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "SIGSOFT"
+    logo_text = "SE Lab"
 
-    logo = "img/sigsoft.png"
-    logo_small = "img/sigsoft.png"
-    contact_url = "/contact"
+    logo = "img/logo.png"
+    logo_small = "img/logo-selab.png"
+    access = "/access"
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-# Enable or disable top bar with social icons
-[params.topbar]
-    enable = true
-    text = """<p class="hidden-sm hidden-xs">The ACM Special Interest Group on Software Engineering</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    news = "/news/:year/:month/:day/:filename/"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -251,14 +106,14 @@ pluralizelisttitles = false
     tags = true
     search = true
 
-#[params.carouselCustomers]
-#    items = 6
-#    auto_play = false
-#    slide_speed = 2000
-#   pagination_speed = 1000
+[params.carouselCustomers]
+    items = 6
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
 
 [params.carouselTestimonials]
-    items = 5
+    items = 4
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
@@ -267,43 +122,43 @@ pluralizelisttitles = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more information take a look at the README.
-    enable = false
+    enable = true
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
-
-[params.features]
-    enable = false
-    cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more information take a look at the README.
 
 [params.testimonials]
     enable = true
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
-    title = "2023 SIGSOFT Awards"
-    subtitle = "We would like to heartily congratulate the winners of the various ACM SIGSOFT awards for 2022:"
+    title = "Graduated Students"
+    subtitle = "Software Engineering Laboratory produced hundreds of students, who successfully continued their career in the industry and in the academic field. Many Doctor students work in Japan and abroad. We look forward to collaborate with more researchers and widen our research areas."
 
-[params.see_more]
+[params.collaborations]
     enable = true
-    icon = "far fa-file-alt"
-    title = "Mission Statement"
-    subtitle = "The ACM Special Interest Group on Software Engineering seeks to improve our ability to engineer software by stimulating interaction among practitioners, researchers, and educators; by fostering the professional development of software engineers; and by representing software engineers to professional, legal, and political entities."
-    link_url = "https://www.sigsoft.org/index.html"
-    link_text = "Homepage"
-
-[params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
+    # All collaborations are defined in their own files. You can find example items
+    # at 'exampleSite/data/collaborations/'.
     # For more information take a look at the README.
-    title = "CARES Committee Members"
-    subtitle = ""
+    title = "Our Collaborative Universities"
+    subtitle = "We collaborate with various Univesities and Research Centers all over the world"
+
+[params.recent_posts]
+    enable = true
+    title = "Latest news"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    hide_summary = false
+
+[params.footer.recent_posts]
+    enable = true
 
 [taxonomies]
   category = "categories"
   tag = "tags"
   author = "authors"
+
+[server]
+[[server.headers]]
+  for = "/*"
+    [server.headers.values]
+    Access-Control-Allow-Origin = "*"
