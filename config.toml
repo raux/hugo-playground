@@ -2,7 +2,7 @@ baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if 
 title = "Software Engineering Laboratory - NAIST"
 theme = "hugo-universal-theme"
 themesDir = "themes/"
-languageCode = "en-us"
+languageCode = "ja"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 
