@@ -1,0 +1,7 @@
+weight: 3
+title: "We do various researches including all software ecosystems"
+description: >
+  <ul class="list-style-none">
+    <li>NPM, PyPi, Maven, etc.</li>
+  </ul>
+image: "img/carousel/3-software-ecosystem-research.jpg"
