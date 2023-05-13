@@ -32,8 +32,8 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Publications"
-    identifier = "portfolio"
-    url        = "/portfolio/"
+    identifier = "publications"
+    url        = "/publications/"
     weight     = 3
 
 [[menu.main]]
