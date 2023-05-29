@@ -25,5 +25,5 @@ authors = ["SE Lab"]
 
   </p>
   
-  <img src="https://github.com/raux/hugo-playground/blob/main/static/img/news/2023-01-19-colloquium.jpg" alt="Alt text" title="Optional title">
+  <img src="img/news/2023-01-19-colloquium.jpg" alt="Alt text" title="Optional title">
 <
