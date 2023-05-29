@@ -7,17 +7,10 @@ banner = "img/news/2023-01-19-colloquium.jpg"
 authors = ["SE Lab"]
 +++
 
+チェンマイ大学のPASSAKORN PHANNACHITTA教授が講演を行いました．
+タイトル：A story behind an optimal model-based software effort estimation
+コロキアムＡにて，チェンマイ大学のPASSAKORN PHANNACHITTA教授が講演を行いました．
+機械学習モデルを含む経験的ソフトウェア工学の長年の議論の問題の一つである，ソフトウェア開発の工数見積もりについての講演でした．
 
-  チェンマイ大学のPASSAKORN PHANNACHITTA教授が講演を行いました．
-
-
-  タイトル：A story behind an optimal model-based software effort estimation
-
-
-  コロキアムＡにて，チェンマイ大学のPASSAKORN PHANNACHITTA教授が講演を行いました．
-
-
-  機械学習モデルを含む経験的ソフトウェア工学の長年の議論の問題の一つである，ソフトウェア開発の工数見積もりについての講演でした．
-
-  
-![Colloquium 19-01-23] (/static/img/news/2023-01-19-colloquium.jpg)
+![Alt
+text](img/news/2023-04-19-bbq.jpg "Colloquium title")
